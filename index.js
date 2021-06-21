@@ -19,6 +19,10 @@ const getContent = (start, end, stopPaginationRender = false) => {
 // Main concept parPageCount = 10;
 // start = End-perPageCount = 0
 // end = 1*perPageCount = 10;
+
+// npm i -g parcel-bundler
+// npm i -g json-server
+// json-server --watch db.json
 getContent(0, 10,false)
 const renderPostList = (postList) => {
     postListWrapper.innerHTML = "";
